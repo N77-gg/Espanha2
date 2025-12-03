@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lora",sans-serif;
+}
+ header{
+    background-color: #FC0000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 5rem;
+    height: 5rem;
+    margin-bottom: 3rem;
+    padding-inline: 3rem;
+ }
+ nav{
+    display: flex;
+    list-style: none;
+    gap: 3rem;
+ }
+ nav ul{
+    display: flex;
+    list-style: none;
+    gap: 3rem;
+ }
+ nav a{
+    color: #FFF;
+    text-decoration: none;
+    font-weight: 700;
+ }
+ nav li:hover{
+    transform: scale(1.1);
+    transition: 400ms;
+ }
+.titulo{
+   color: #FFF;
+}
+p{
+    font-size: 16px;
+}
+footer{
+   font-size: 20px;
+   text-align: center;
+}
+.produtos{
+     display: flex;
+     justify-content: center;
+     gap: 20px;
+     padding: 20px;
+}
+.culinaria{
+   background-color: #ffde59;
+   border-radius: 10px;
+   padding: 15px;
+   width: 310px;
+   text-align: center;
+}
+.culinaria img{
+   width: 100%;
+   height: auto;
+   border-radius: 8px;
+}
+.culinaria2{
+   background-color: #cb1920;
+   border-radius: 10px;
+   padding: 15px;
+   width: 310px;
+   text-align: center;
+}
+.culinaria2 img{
+   width: 100%;
+   height: auto;
+   border-radius: 8px;
+}
+.culinaria3{
+   background-color: #ecad5f;
+   border-radius: 10px;
+   padding: 15px;
+   width: 310px;
+   text-align: center;
+}
+.culinaria3 img{
+   width: 100%;
+   height: auto;
+   border-radius: 8px;
+}
+.culinaria4{
+   background-color: #765e45;
+   border-radius: 10px;
+   padding: 15px;
+   width: 310px;
+   text-align: center;
+}
+.culinaria4 img{
+   width: 100%;
+   height: auto;
+   border-radius: 8px;
+}
